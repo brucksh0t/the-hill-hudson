@@ -21,7 +21,7 @@ Each was resized locally to JPG and WebP, never larger than the source. The 800p
 Full source URLs are listed in `sources.txt`.
 
 - img/favicon.png: a simple shape drawn for this concept. It isn't their logo.
-- The fire pit stop is a typographic block, because no photo of it was found.
+- The fire pit stop is a cream outlined typographic card (no photo), because no photo of it was found.
 
 ## Facts
 All facts are from hudsonvalleyweddings.net (/, /about, /your-wedding, /contact), retrieved Oct 12, 2026. They cover the season, capacity, inclusions, music times, 22-per-year limit, history and contact details.

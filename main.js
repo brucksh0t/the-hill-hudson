@@ -35,7 +35,11 @@
       rows.push('<li><span class="dot dot--'+((g>300||g<75)?'later':'open')+'" aria-hidden="true"></span><span><b>Guests:</b> '+gt+'</span></li>');}
     var html=rows.length?rows.join(''):'<li>Pick a date to check it against the May–October season.</li>';
     if(html!==out.innerHTML){out.innerHTML=html;animate();}
-    var body='Hi Lisa,\n\nWe’re looking at The Hill for our 2027 wedding. Our dates:\n'+(lines.join('\n')||'- (dates)')+'\n- Guests: about '+(g||'?')+'\n\nAre any of these open? We’d also love to schedule a tour.\n\nThank you,\n'+'Name: '+f.elements.name.value.trim()+'\nPhone: '+f.elements.phone.value.trim()+'\n';
+    var nm=f.elements.name.value.trim(),ph=f.elements.phone.value.trim();
+    var sign='Thank you,';
+    if(nm)sign+='\nName: '+nm;
+    if(ph)sign+='\nPhone: '+ph;
+    var body='Hi Lisa,\n\nWe’re looking at The Hill for our 2027 wedding. Our dates:\n'+(lines.join('\n')||'- (dates)')+'\n- Guests: about '+(g||'?')+'\n\nAre any of these open? We’d also love to schedule a tour.\n\n'+sign+'\n';
     send.href='mailto:lisacoon231@gmail.com?subject='+encodeURIComponent('2027 date request')+'&body='+encodeURIComponent(body);
   }
   f.addEventListener('input',update);f.addEventListener('change',update);update();ready=true;
