@@ -100,7 +100,7 @@ address{font-style:normal;font-size:1.2rem}
 .mbar{display:none}
 @media (max-width:899px){
   .mbar{display:grid;grid-template-columns:1fr 1fr minmax(34%,1.4fr);gap:.5rem;position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--ink);padding:8px 10px calc(8px + var(--safe));min-height:calc(68px + var(--safe));box-shadow:0 -6px 20px rgba(0,0,0,.25)}
-  .mbar .btn{min-height:52px;font-size:1.1rem;padding:.2em .5em}
+  .mbar .btn{min-height:52px;font-size:1.05rem;padding:.2em .4em}
   body{padding-bottom:calc(76px + var(--safe))}
   .date__in,.inc,.ct,.stop{grid-template-columns:1fr}
   .stop--flip .stop__media{order:0}

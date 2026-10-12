@@ -12,7 +12,7 @@ Each was resized locally to JPG and WebP, never larger than the source. The 800p
 | img/palladian-barn.* | Palladian Barn exterior | https://images.squarespace-cdn.com/content/v1/578645158419c25970ad739f/…/Palladian_Barn.76140249.jpg | /photos |
 | img/barn-tables.* | Reception tables in barn | …/Courtney-Viren-The-Hill(89of175)-min.jpg | /photos |
 | img/barn-lanterns.* | Lanterns in barn (800px source) | …/TheHill.JPG | /photos |
-| img/art-barn.* | The Art Barn | …/the-art-barn.jpg | /photos |
+| img/art-barn.* | The Art Barn | https://images.squarespace-cdn.com/content/v1/578645158419c25970ad739f/2e8a4abc-df43-4235-9519-31f9631e7f32/the-art-barn.jpg | /photos |
 | img/hilltop-ceremony.* | Hilltop ceremony chairs | …/Hudson-Valley-Hill-Grounds.jpg | /photos |
 | img/horses.* | Horses at fence | …/horses.jpg | /photos |
 | img/field-ceremony.* | Field ceremony with arch (800px source) | …/TheHill2.jpg | /photos |
