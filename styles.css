@@ -13,6 +13,9 @@ a{color:inherit}
 .brand{display:inline-flex;align-items:center;gap:.6rem;min-height:44px;min-width:44px;text-decoration:none;font-family:var(--disp);font-weight:800;font-size:1.5rem}
 .nav__links{display:flex;gap:1.1rem;margin-left:auto;font-weight:700;font-size:1rem}
 .nav__links a,.strip a{text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+.strip a,.nav__links a{min-width:44px;justify-content:center;padding:0 6px}
+a[href^="tel"]:not(.btn){display:inline-flex;align-items:center;min-height:44px;padding:0 4px}
+.flag__short{display:none}
 .nav__links a:hover{color:#f0c98a}
 .strip{display:none}
 /* buttons */
@@ -99,7 +102,7 @@ address{font-style:normal;font-size:1.2rem}
 .foot a{min-height:44px;display:inline-flex;align-items:center}
 .mbar{display:none}
 @media (max-width:899px){
-  .mbar{display:grid;grid-template-columns:1fr 1fr minmax(34%,1.4fr);gap:.5rem;position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--ink);padding:8px 10px calc(8px + var(--safe));min-height:calc(68px + var(--safe));box-shadow:0 -6px 20px rgba(0,0,0,.25)}
+  .mbar{display:grid;grid-template-columns:minmax(0,1fr) minmax(55%,1.6fr);gap:.5rem;position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--ink);padding:8px 10px calc(8px + var(--safe));min-height:calc(68px + var(--safe));box-shadow:0 -6px 20px rgba(0,0,0,.25)}
   .mbar .btn{min-height:52px;font-size:1.05rem;padding:.2em .4em}
   body{padding-bottom:calc(76px + var(--safe))}
   .date__in,.inc,.ct,.stop{grid-template-columns:1fr}
@@ -114,7 +117,13 @@ address{font-style:normal;font-size:1.2rem}
   html{scroll-padding-top:124px}
   .facts{grid-template-columns:1fr}
 }
+@media (max-width:699px){
+  .hero{min-height:auto}.hero__copy{padding:2rem 0 1.5rem}
+}
 @media (max-width:480px){
+  .mbar .btn{font-size:.95rem;padding:.2em .3em}
+  .flag{font-size:.875rem;padding:.35rem .5rem;white-space:nowrap}.flag__long{display:none}.flag__short{display:inline}
+  .hero{min-height:auto}.hero__copy{padding:2rem 0 1.5rem}.hero h1{font-size:2.6rem}
   .btn{font-size:1.15rem}
   .btn--lg{font-size:1.25rem;min-height:56px}
   .btn--hdr{font-size:1rem;padding:.2em .7em}
