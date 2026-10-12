@@ -8,8 +8,8 @@ Each was resized locally to JPG and WebP, never larger than the source. The 800p
 
 | Local file(s) | Shows | Source URL | Page |
 |---|---|---|---|
-| img/barn-front.* | Palladian Barn front | https://images.squarespace-cdn.com/content/v1/578645158419c25970ad739f/…/The-Hill-Hudson-Valley-Weddings.jpg | /about |
-| img/palladian-barn.* | Palladian Barn exterior | https://images.squarespace-cdn.com/content/v1/578645158419c25970ad739f/…/Palladian_Barn.76140249.jpg | /photos |
+| img/barn-front.* | Palladian Barn front | https://images.squarespace-cdn.com/content/v1/578645158419c25970ad739f/…/The-Hill-Hudson-Valley-Weddings.jpg | /your-wedding |
+| img/palladian-barn.* | Palladian Barn exterior | https://images.squarespace-cdn.com/content/v1/578645158419c25970ad739f/…/Palladian_Barn.76140249.jpg | /about |
 | img/barn-tables.* | Reception tables in barn | …/Courtney-Viren-The-Hill(89of175)-min.jpg | /photos |
 | img/barn-lanterns.* | Lanterns in barn (800px source) | …/TheHill.JPG | /photos |
 | img/art-barn.* | The Art Barn | https://images.squarespace-cdn.com/content/v1/578645158419c25970ad739f/2e8a4abc-df43-4235-9519-31f9631e7f32/the-art-barn.jpg | /photos |
